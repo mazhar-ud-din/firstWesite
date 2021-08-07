@@ -1,0 +1,91 @@
+    .navbar {
+        background-color: lightcoral !important;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .nav-link,
+    .navbar-brand {
+        font-weight: bold;
+    }
+    
+    .fa-shopping-cart {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+    
+    .fa-user-circle {
+        font-size: 30px !important;
+    }
+    
+    .card1,
+    .card2,
+    .card3 {
+        font-size: 40px !important;
+        display: flex !important;
+        background-color: #fff;
+        box-shadow: 2px 4px 5px grey;
+        width: 300px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .mainCard {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .card1,
+        .card2,
+        .card3 {
+            width: 100%;
+        }
+    }
+    
+    .fa-truck,
+    .fa-headset,
+    .fa-thumbs-up {
+        color: lightcoral !important;
+        margin-right: 15px;
+    }
+    
+    h4 {
+        color: lightcoral !important;
+    }
+    
+    .card {
+        width: 2O0px !important;
+        height: auto;
+        margin-top: 30px;
+        text-align: left;
+    }
+    
+    .card-text {
+        width: 200px;
+        font-weight: bold;
+    }
+    
+    .btn-primary {
+        width: 100%;
+        background-color: lightcoral !important;
+    }
+    
+    .NewArrivals {
+        margin-top: 5Opx;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .heading {
+        font-weight: bold;
+        color: lightcoral;
+        margin: 25px;
+    }
